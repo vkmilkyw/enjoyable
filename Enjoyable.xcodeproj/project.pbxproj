@@ -548,6 +548,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukkurigames.Enjoyable;
 				PRODUCT_NAME = Enjoyable;
 				PROVISIONING_PROFILE = "";
 			};
@@ -576,6 +577,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukkurigames.Enjoyable;
 				PRODUCT_NAME = Enjoyable;
 				PROVISIONING_PROFILE = "";
 			};

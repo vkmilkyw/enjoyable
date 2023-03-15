@@ -24,7 +24,7 @@
 }
 
 - (NSString *)frontWindowTitle {
-    return self.windowTitles[0];
+    return [self.windowTitles count] > 0 ? self.windowTitles[0] : nil;
 }
 
 - (NSArray *)possibleMappingNames {
