@@ -8,6 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		92706A8C29C1E9650053D3B4 /* com.yukkurigames.Enjoyable.mapping.icns in Resources */ = {isa = PBXBuildFile; fileRef = EEF17D1716E8E21A00D7DC4D /* com.yukkurigames.Enjoyable.mapping.icns */; };
+		92706A8D29C1E9650053D3B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF17D1B16E8E23A00D7DC4D /* InfoPlist.strings */; };
+		92706A8E29C1E9650053D3B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF17D1D16E8E23A00D7DC4D /* MainMenu.xib */; };
+		92706A8F29C1E9650053D3B4 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = EEF17D2116E8E24400D7DC4D /* Help */; };
+		92706A9029C1E9650053D3B4 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE6A122D16E8F46300EDBD32 /* Icon.icns */; };
+		92706A9129C1E9650053D3B4 /* Status Menu Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3D897916EA7EFC00596D1F /* Status Menu Icon@2x.png */; };
+		92706A9229C1E9650053D3B4 /* Status Menu Icon Disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3D897B16EA806E00596D1F /* Status Menu Icon Disabled@2x.png */; };
+		92706A9329C1E9650053D3B4 /* Status Menu Icon Disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3D897D16EA817E00596D1F /* Status Menu Icon Disabled.png */; };
+		92706A9429C1E9650053D3B4 /* Status Menu Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE3D897E16EA817E00596D1F /* Status Menu Icon.png */; };
+		92706A9529C1E9650053D3B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE1F3CE816EF4182008C6426 /* Localizable.strings */; };
+		92706A9729C1E9650053D3B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D2416E8E2D800D7DC4D /* main.m */; };
+		92706A9829C1E9650053D3B4 /* NSError+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D2816E8E2E100D7DC4D /* NSError+Description.m */; };
+		92706A9929C1E9650053D3B4 /* NSFileManager+UniqueNames.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D2A16E8E2E100D7DC4D /* NSFileManager+UniqueNames.m */; };
+		92706A9A29C1E9650053D3B4 /* NSMenu+RepresentedObjectAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D2C16E8E2E100D7DC4D /* NSMenu+RepresentedObjectAccessors.m */; };
+		92706A9B29C1E9650053D3B4 /* NSMutableArray+MoveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D2E16E8E2E100D7DC4D /* NSMutableArray+MoveObject.m */; };
+		92706A9C29C1E9650053D3B4 /* NSString+FixFilename.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D3016E8E2E100D7DC4D /* NSString+FixFilename.m */; };
+		92706A9D29C1E9650053D3B4 /* NSView+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D3216E8E2E100D7DC4D /* NSView+FirstResponder.m */; };
+		92706A9E29C1E9650053D3B4 /* EnjoyableApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D3A16E8E2EF00D7DC4D /* EnjoyableApplicationDelegate.m */; };
+		92706A9F29C1E9650053D3B4 /* NJDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D3C16E8E2EF00D7DC4D /* NJDevice.m */; };
+		92706AA029C1E9650053D3B4 /* NJInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D3E16E8E2EF00D7DC4D /* NJInputController.m */; };
+		92706AA129C1E9650053D3B4 /* NJInput.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D4016E8E2EF00D7DC4D /* NJInput.m */; };
+		92706AA229C1E9650053D3B4 /* NJInputAnalog.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D4216E8E2EF00D7DC4D /* NJInputAnalog.m */; };
+		92706AA329C1E9650053D3B4 /* NJInputButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D4416E8E2EF00D7DC4D /* NJInputButton.m */; };
+		92706AA429C1E9650053D3B4 /* NJInputHat.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D4616E8E2EF00D7DC4D /* NJInputHat.m */; };
+		92706AA529C1E9650053D3B4 /* NJKeyInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D4916E8E2EF00D7DC4D /* NJKeyInputField.m */; };
+		92706AA629C1E9650053D3B4 /* NJMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D4B16E8E2EF00D7DC4D /* NJMapping.m */; };
+		92706AA729C1E9650053D3B4 /* NJOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D4F16E8E2EF00D7DC4D /* NJOutput.m */; };
+		92706AA829C1E9650053D3B4 /* NJOutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D5116E8E2EF00D7DC4D /* NJOutputViewController.m */; };
+		92706AA929C1E9650053D3B4 /* NJOutputKeyPress.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D5316E8E2EF00D7DC4D /* NJOutputKeyPress.m */; };
+		92706AAA29C1E9650053D3B4 /* NJOutputMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D5516E8E2EF00D7DC4D /* NJOutputMapping.m */; };
+		92706AAB29C1E9650053D3B4 /* NJOutputMouseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D5716E8E2EF00D7DC4D /* NJOutputMouseButton.m */; };
+		92706AAC29C1E9650053D3B4 /* NJOutputMouseMove.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D5916E8E2EF00D7DC4D /* NJOutputMouseMove.m */; };
+		92706AAD29C1E9650053D3B4 /* NJOutputMouseScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF17D5B16E8E2EF00D7DC4D /* NJOutputMouseScroll.m */; };
+		92706AAE29C1E9650053D3B4 /* NSRunningApplication+NJPossibleNames.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE73B1516EA42E5009D9D99 /* NSRunningApplication+NJPossibleNames.m */; };
+		92706AAF29C1E9650053D3B4 /* NJMappingMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED4CE6D16ED692400C65AA8 /* NJMappingMenuController.m */; };
+		92706AB029C1E9650053D3B4 /* NJHIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE703DB16F089FE002FDD69 /* NJHIDManager.m */; };
+		92706AB129C1E9650053D3B4 /* NJInputPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE703DD16F0B3F6002FDD69 /* NJInputPathElement.m */; };
+		92706AB229C1E9650053D3B4 /* NSRunningApplication+LoginItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8455DC16F0E46B00F32A01 /* NSRunningApplication+LoginItem.m */; };
+		92706AB329C1E9650053D3B4 /* NSOutlineView+ItemAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52145B16F3E8BD00E3C574 /* NSOutlineView+ItemAccessors.m */; };
+		92706AB429C1E9650053D3B4 /* NJDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52145E16F404D500E3C574 /* NJDeviceViewController.m */; };
+		92706AB529C1E9650053D3B4 /* NJMappingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE83ACEB16F545EA00083E94 /* NJMappingsViewController.m */; };
+		92706AB629C1E9650053D3B4 /* NSProcessInfo+Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = EE48262F16F6680D001B0C64 /* NSProcessInfo+Debugging.m */; };
+		92706AB829C1E9650053D3B4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE35A6E317BBCC9500413995 /* CoreVideo.framework */; };
+		92706AB929C1E9650053D3B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		92706ABA29C1E9650053D3B4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594BEFF0FAE7397007A85F2 /* IOKit.framework */; };
 		D594BF000FAE7397007A85F2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594BEFF0FAE7397007A85F2 /* IOKit.framework */; };
 		EE1F3CEA16EF4182008C6426 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE1F3CE816EF4182008C6426 /* Localizable.strings */; };
 		EE35A6E417BBCC9500413995 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE35A6E317BBCC9500413995 /* CoreVideo.framework */; };
@@ -55,6 +100,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		92706ABB29C1E9650053D3B4 /* Copy Sparkle Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Sparkle Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EED4CE7416EE0E6400C65AA8 /* Copy Sparkle Framework */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +128,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Enjoyable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enjoyable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92706ABF29C1E9650053D3B4 /* Enjoyable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enjoyable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D594BEFF0FAE7397007A85F2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		EE1F3CE916EF4182008C6426 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE35A6E317BBCC9500413995 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -163,6 +219,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92706AB729C1E9650053D3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92706AB829C1E9650053D3B4 /* CoreVideo.framework in Frameworks */,
+				92706AB929C1E9650053D3B4 /* Cocoa.framework in Frameworks */,
+				92706ABA29C1E9650053D3B4 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -202,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* Enjoyable.app */,
+				92706ABF29C1E9650053D3B4 /* Enjoyable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -354,9 +421,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* Enjoyable */ = {
+		8D1107260486CEB800E47090 /* Enjoyable (x86_64) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Enjoyable" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Enjoyable (x86_64)" */;
 			buildPhases = (
 				EE3D898416EAAE1600596D1F /* Increment build number */,
 				EED7E81616E7B547004A0BA4 /* Generate Help Index */,
@@ -369,10 +436,31 @@
 			);
 			dependencies = (
 			);
-			name = Enjoyable;
+			name = "Enjoyable (x86_64)";
 			productInstallPath = "$(HOME)/Applications";
 			productName = Enjoy;
 			productReference = 8D1107320486CEB800E47090 /* Enjoyable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92706A8829C1E9650053D3B4 /* Enjoyable (arm64) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92706ABC29C1E9650053D3B4 /* Build configuration list for PBXNativeTarget "Enjoyable (arm64)" */;
+			buildPhases = (
+				92706A8929C1E9650053D3B4 /* Increment build number */,
+				92706A8A29C1E9650053D3B4 /* Generate Help Index */,
+				92706A8B29C1E9650053D3B4 /* Resources */,
+				92706A9629C1E9650053D3B4 /* Sources */,
+				92706AB729C1E9650053D3B4 /* Frameworks */,
+				92706ABB29C1E9650053D3B4 /* Copy Sparkle Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Enjoyable (arm64)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = Enjoy;
+			productReference = 92706ABF29C1E9650053D3B4 /* Enjoyable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -397,7 +485,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* Enjoyable */,
+				8D1107260486CEB800E47090 /* Enjoyable (x86_64) */,
+				92706A8829C1E9650053D3B4 /* Enjoyable (arm64) */,
 			);
 		};
 /* End PBXProject section */
@@ -420,9 +509,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92706A8B29C1E9650053D3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92706A8C29C1E9650053D3B4 /* com.yukkurigames.Enjoyable.mapping.icns in Resources */,
+				92706A8D29C1E9650053D3B4 /* InfoPlist.strings in Resources */,
+				92706A8E29C1E9650053D3B4 /* MainMenu.xib in Resources */,
+				92706A8F29C1E9650053D3B4 /* Help in Resources */,
+				92706A9029C1E9650053D3B4 /* Icon.icns in Resources */,
+				92706A9129C1E9650053D3B4 /* Status Menu Icon@2x.png in Resources */,
+				92706A9229C1E9650053D3B4 /* Status Menu Icon Disabled@2x.png in Resources */,
+				92706A9329C1E9650053D3B4 /* Status Menu Icon Disabled.png in Resources */,
+				92706A9429C1E9650053D3B4 /* Status Menu Icon.png in Resources */,
+				92706A9529C1E9650053D3B4 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		92706A8929C1E9650053D3B4 /* Increment build number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment build number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nplist=\"${PROJECT_DIR}/${INFOPLIST_FILE}\"\ndir=\"$(dirname \"$plist\")\"\n\n# Only increment the build number if source files have changed\nif [ -n \"$(find \"$dir\" \\! -path \"*xcuserdata*\" \\! -path \"*.git*\" \\! -name .DS_Store \\! -path \"*Website*\" -newer \"$plist\")\" ]; then\n    buildnum=$(/usr/libexec/Plistbuddy -c \"Print CFBundleVersion\" \"$plist\")\n    if [ -z \"$buildnum\" ]; then\n        echo \"No build number in $plist\"\n        exit 2\n    fi\n    buildnum=$(expr $buildnum + 1)\n    /usr/libexec/Plistbuddy -c \"Set CFBundleVersion $buildnum\" \"$plist\"\n    echo \"Incremented build number to $buildnum\"\nelse\n    echo \"Not incrementing build number as source files have not changed\"\nfi\n";
+		};
+		92706A8A29C1E9650053D3B4 /* Generate Help Index */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Help Index";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${SOURCE_ROOT}/Resources/Help/Contents/Resources/English.lproj\nmake\n";
+		};
 		EE3D898416EAAE1600596D1F /* Increment build number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,6 +627,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92706A9629C1E9650053D3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92706A9729C1E9650053D3B4 /* main.m in Sources */,
+				92706A9829C1E9650053D3B4 /* NSError+Description.m in Sources */,
+				92706A9929C1E9650053D3B4 /* NSFileManager+UniqueNames.m in Sources */,
+				92706A9A29C1E9650053D3B4 /* NSMenu+RepresentedObjectAccessors.m in Sources */,
+				92706A9B29C1E9650053D3B4 /* NSMutableArray+MoveObject.m in Sources */,
+				92706A9C29C1E9650053D3B4 /* NSString+FixFilename.m in Sources */,
+				92706A9D29C1E9650053D3B4 /* NSView+FirstResponder.m in Sources */,
+				92706A9E29C1E9650053D3B4 /* EnjoyableApplicationDelegate.m in Sources */,
+				92706A9F29C1E9650053D3B4 /* NJDevice.m in Sources */,
+				92706AA029C1E9650053D3B4 /* NJInputController.m in Sources */,
+				92706AA129C1E9650053D3B4 /* NJInput.m in Sources */,
+				92706AA229C1E9650053D3B4 /* NJInputAnalog.m in Sources */,
+				92706AA329C1E9650053D3B4 /* NJInputButton.m in Sources */,
+				92706AA429C1E9650053D3B4 /* NJInputHat.m in Sources */,
+				92706AA529C1E9650053D3B4 /* NJKeyInputField.m in Sources */,
+				92706AA629C1E9650053D3B4 /* NJMapping.m in Sources */,
+				92706AA729C1E9650053D3B4 /* NJOutput.m in Sources */,
+				92706AA829C1E9650053D3B4 /* NJOutputViewController.m in Sources */,
+				92706AA929C1E9650053D3B4 /* NJOutputKeyPress.m in Sources */,
+				92706AAA29C1E9650053D3B4 /* NJOutputMapping.m in Sources */,
+				92706AAB29C1E9650053D3B4 /* NJOutputMouseButton.m in Sources */,
+				92706AAC29C1E9650053D3B4 /* NJOutputMouseMove.m in Sources */,
+				92706AAD29C1E9650053D3B4 /* NJOutputMouseScroll.m in Sources */,
+				92706AAE29C1E9650053D3B4 /* NSRunningApplication+NJPossibleNames.m in Sources */,
+				92706AAF29C1E9650053D3B4 /* NJMappingMenuController.m in Sources */,
+				92706AB029C1E9650053D3B4 /* NJHIDManager.m in Sources */,
+				92706AB129C1E9650053D3B4 /* NJInputPathElement.m in Sources */,
+				92706AB229C1E9650053D3B4 /* NSRunningApplication+LoginItem.m in Sources */,
+				92706AB329C1E9650053D3B4 /* NSOutlineView+ItemAccessors.m in Sources */,
+				92706AB429C1E9650053D3B4 /* NJDeviceViewController.m in Sources */,
+				92706AB529C1E9650053D3B4 /* NJMappingsViewController.m in Sources */,
+				92706AB629C1E9650053D3B4 /* NSProcessInfo+Debugging.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -523,6 +696,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		92706ABD29C1E9650053D3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SYMROOT/$CONFIGURATION/arm64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Enjoyable_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukkurigames.Enjoyable;
+				PRODUCT_NAME = Enjoyable;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		92706ABE29C1E9650053D3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SYMROOT/$CONFIGURATION/arm64;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Enjoyable_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukkurigames.Enjoyable;
+				PRODUCT_NAME = Enjoyable;
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,6 +769,7 @@
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SYMROOT/$CONFIGURATION/x86_64;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -563,6 +801,7 @@
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = $SYMROOT/$CONFIGURATION/x86_64;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -675,7 +914,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Enjoyable" */ = {
+		92706ABC29C1E9650053D3B4 /* Build configuration list for PBXNativeTarget "Enjoyable (arm64)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92706ABD29C1E9650053D3B4 /* Debug */,
+				92706ABE29C1E9650053D3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Enjoyable (x86_64)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
